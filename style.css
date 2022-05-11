@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: rgb(25, 25, 25);
+  font-size: 16px;
+  line-height: 30px;
+  background-image:
+    linear-gradient(30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(-30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(-30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(-30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(-30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(45deg, #544 25%, transparent 25%, transparent 75%, #544 75%),
+    linear-gradient(45deg, #544 25%, transparent 25%, transparent 75%, #544 75%);
+  background-position:
+    0em 2em,
+    0em 2em,
+    2em 4em,
+    2em 4em,
+    4em 2em,
+    4em 2em,
+    6em 4em,
+    6em 4em,
+    0em 0em,
+    2em 2em;
+  background-size:
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    4em 4em,
+    4em 4em;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 36px;
+  color: rgb(142, 91, 104);
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+  color: rgb(142, 91, 104);
+}
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: rgb(142, 91, 104);
+  font-size: 20px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.social-icon {
+  color: rgb(186, 166, 166);
+  font-size: 40px;
+}
+
+.social-icon:hover {
+  color: rgb(47, 47, 42);
+}
+
+button {
+  text-decoration: none;
+  background-color: rgb(218, 182, 182);
+  color: rgb(125, 106, 106);
+  border: none;
+  font-size: 20px;
+  font-family: 'Patrick Hand', cursive;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button:hover {
+  color: lightgray;
+  background-color: rgb(142, 91, 104);
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#social-posts {
+  padding: 10px;
+  background-color: rgb(120, 101, 99);
+  border-radius: 4px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: none;
+  margin: 10px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.img-circle {
+  border-radius: 20%;
+  padding: 10px;
+  opacity: 90%;
+}
+
+.img-circle-smaller {
+  border-radius: 20%;
+  padding: 10px;
+  opacity: 90%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
